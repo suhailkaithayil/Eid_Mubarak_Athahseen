@@ -24,3 +24,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     exit;
 }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Athahseen</title>
+</head>
+<body>
+    <h1>Eid Mubarak</h1>
+    <form method="post" action="myphp/Eid_Mubarak.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Eid Mubarak</button>
+    </form>
+</body>
+</html>
